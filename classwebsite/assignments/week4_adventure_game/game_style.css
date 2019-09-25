@@ -1,0 +1,18 @@
+body{
+
+	background:pink;
+	color: white;
+}
+h1{
+	font-size: 50px;
+	font-family: futura;
+}
+p{
+	font-size: 30px;
+	font-family: futura;
+}
+section{
+	font-size: 30px;
+	font-family: futura;
+	border: 2px solid white;
+}
