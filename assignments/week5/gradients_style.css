@@ -1,0 +1,218 @@
+body{
+	position: fixed;
+	background:#CCCCFF;
+	font-size: 50px;
+	font-family: futura;
+	color: white;
+	}
+p1{
+	left:50%;
+	color: purple;
+}
+p2{
+	color: purple;
+	left:50%;
+}
+p3{
+	color: purple;
+	left:50%;
+}
+p4{
+	color: purple;
+	left:50%;
+}
+p5{
+	color: purple;
+	left:50%;
+}
+p6{
+	color: purple;
+	left:50%;
+}
+
+p7{
+	position: fixed;
+	top:10%;
+	left:10%;
+}
+p8{
+	position: fixed;
+	top:15%;
+	left:15%;
+}
+p9{
+	position: fixed;
+	top:20%;
+	left:20%;
+}
+p10{
+	position: fixed;
+	top:25%;
+	left:25%;
+}
+p11{
+	position: fixed;
+	top:30%;
+	left:30%;
+}
+p12{
+	position: fixed;
+	top:35%;
+	left:35%;
+}
+p13{
+	position: fixed;
+	top:40%;
+	left:40%;
+}
+p14{
+	position: fixed;
+	top:45%;
+	left:45%;
+}
+
+
+p15{ 
+	letter-spacing: 5px; 
+}
+p16{ 
+	letter-spacing: 10px	
+}
+p17{
+	letter-spacing: 30px
+}
+
+section1{
+	position: fixed;
+	left: 50%;
+}
+
+p18{
+	color: rgb(255,0,0,1);
+}
+p19{
+	color: rgb(255,0,0,0.8);
+}
+p20{
+	color: rgb(255,0,0,0.6);
+}
+p21{
+	color: rgb(255,0,0,0.3);
+}
+p22{
+	color: rgb(255,0,0,0.2);
+}
+
+section2{
+	font-size: 90px;
+}
+p23{
+position: fixed;
+top:10%;
+}
+p24{
+position: fixed;
+top:30%;	
+}
+p25{
+position: fixed;
+top:60%;	
+}
+p26{
+position: fixed;
+top:80%;
+left:50%;	
+}
+
+.crazy{
+	text-align: center;
+}
+p27{
+	font-size:30px;
+}
+p28{
+	font-size:50px;
+}
+p29{
+	font-size:90px;
+}
+p30{
+	font-size:140px;
+}
+
+p31{
+	outline: 2px dotted purple;
+}
+p32{
+	outline: 5px dotted purple;
+}
+p33{
+	outline: 10px dotted purple;
+}
+p34{
+	outline: 5px dotted purple;
+}
+p35{
+	outline: 2px dotted purple;
+}
+div.rihannas{
+	background:lightcyan;
+	position: fixed; left: 40%;
+	text-align: center
+}
+p.riri{
+color: coral
+}
+p.rihanna{
+color: tomato
+}
+p.badgal{
+color: orangered
+}
+p.fenty{
+color: darkorange
+}
+
+div.houses{
+	background:black;
+	position: fixed; left: 40%;
+	text-align: center
+}
+
+p.gryff{
+	color: maroon;
+}
+p.huff{
+	color: yellow;
+}
+p.slyth{
+	color: olivedrab;
+}
+p.rave{
+	color: steelblue;
+}
+
+div.tlc{
+	position: fixed; left: 40%;
+	text-align: center;
+}
+p.dont{
+	background: rgb(0,206,209,1);
+}
+p.go{
+	background: rgb(0,206,209,0.7);
+}
+p.chasing{
+	background: rgb(0,206,209,0.5);
+}
+p.waterfalls{
+	background: rgb(0,206,209,0.3);
+}
+
+
+
+
+	
+
+
+
