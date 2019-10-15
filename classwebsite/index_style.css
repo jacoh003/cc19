@@ -1,3 +1,5 @@
+
+
 body{
 
 	background:#CCCCFF;
@@ -10,6 +12,11 @@ h1{
 p{
 	font-size: 30px;
 	font-family: futura;
+}
+p1{
+	font-size: 12px;
+	font-family: futura;
+	color:gray;
 }
 section{
 	font-size: 30px;
