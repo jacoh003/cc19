@@ -1,0 +1,92 @@
+html, body {
+	width:100vw;
+	height:100vh;
+	display:block;
+
+}
+
+
+
+
+.sky {
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-image:radial-gradient(greenyellow,deeppink);
+	z-index:0;
+
+}
+
+.dance{
+	font-family: futura;
+	font-size: 150px;
+	position:absolute;
+	left:140px;
+	top:-150px;
+	color:white;
+	z-index:98;
+}
+
+.ground {
+	width:100vw;
+	height:200px;
+	position: absolute;
+	top:400px;
+	background-image:linear-gradient(lightgray,gray,greenyellow);
+	opacity:0.3;
+	z-index:1;
+}
+
+
+img{
+	width:200px;
+	position:absolute;
+	animation:dance .3s infinite;
+
+}
+
+
+#nude1 {
+	
+	position:absolute;
+	top:150px;
+	left:0;
+	z-index:99;
+	margin-right:20px;
+
+}
+
+
+
+#nude2 {
+	position:absolute;
+	top:150px;
+	left:200px;
+	z-index:150;
+	margin-right:20px;
+
+}
+#nude3 {
+	position:absolute;
+	top:150px;
+	left:400px;
+	z-index:200;
+	margin-right:20px;
+
+}
+
+#nude5 {
+	position:absolute;
+	top:150px;
+	left:600px;
+	z-index:300;
+	margin-right:20px;
+}
+
+@keyframes dance{
+	0%{
+		transform:rotate(-1deg);
+}
+	50%{
+		transform:rotate(1deg);
+	}
