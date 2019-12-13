@@ -1,0 +1,117 @@
+html, body {
+	width: 100%;
+	height: auto;
+	background: white;
+	transition: background 2s ease-in-out;
+}
+
+#colorback{
+	z-index: -1000;
+	width: 100vw;
+	height: 100vh;
+	position:absolute;
+}
+
+h1{
+	font-family: avenir;
+	width:500px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	padding-bottom: 50px;
+	color:white;
+}
+
+#article {
+	width:500px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align:justify;
+	font-family: avenir;
+	font-size: 20px;
+	padding-bottom: 200px;
+}
+
+#headers{
+	font-size: 24px;
+	font-weight:bold;
+	color:white;
+}
+
+#red{
+	transition:.6s;
+	font-size: 24px;
+	font-weight:bold;
+	color:white;
+}
+
+#orange{
+	transition:.6s;
+	font-size: 24px;
+	font-weight:bold;
+	color:white;
+}
+
+#yellow{
+	transition:.6s;
+	font-size: 24px;
+	font-weight:bold;
+	color:white;
+}
+
+#red:hover{
+	color:red;
+}
+
+#orange:hover{
+	color:orange;
+}
+
+#yellow:hover{
+	color:yellow;
+}
+
+#redtext{
+	color:black;
+	background-color:transparent;
+	transition: 6s;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+#yellowtext{
+	color:black;
+	background-color:transparent;
+	transition: 6s;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+#orangetext{
+	color:black;
+	background-color:transparent;
+	transition: 6s;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+#redtext:hover{
+	color:yellow;
+	background-color:red;
+}
+
+#yellowtext:hover{
+	color:red;
+	background-color:yellow;
+}
+
+#orangetext:hover{
+	color:red;
+	background-color:orange;
+}
+
+
+
+
+
+
