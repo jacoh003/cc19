@@ -17,6 +17,7 @@ p1{
 	font-size: 12px;
 	font-family: futura;
 	color:gray;
+
 }
 section{
 	font-size: 30px;
@@ -24,4 +25,11 @@ section{
 }
 a{
 	border: inset;
+}
+
+#reading-text{
+	width:500px;
+	text-align: justify;
+	margin-right:auto;
+	margin-left:auto;
 }
