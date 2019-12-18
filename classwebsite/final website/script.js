@@ -1,5 +1,118 @@
 $(document).ready(function(){
 
 
+	var colors = [
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    "lavender",
+    "lavender",
+    "lavenderblush",
+    "lavenderblush",
+    "ivory",
+    "ivory",
+    "white",
+    "white",
+    
+    ];
+
+    
+
+    var changeColor = function(index, color) {
+      setTimeout(function() { 
+      $("body").css({
+        background: color
+      });
+       }, 1000*index);
+    }
+
+    $("body").mouseover(function() {
+      $.each(colors,changeColor);
+    });
 
 })

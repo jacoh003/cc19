@@ -1,6 +1,7 @@
 body{
 	width:100vw;
 	height:100vh;
+	transition: 6s
 }
 
 .lofi{
@@ -103,11 +104,10 @@ p1{
 
 .artwork img{
 	position:fixed;
-	padding-right:100px;
 	height:400px;
 	width:auto;
 	top:200;
-	right:7%;
+	right:15%;
 	border-radius:10%;
 	z-index: 5;
 }
